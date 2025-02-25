@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB e CMYK no Design Gráfico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>RGB e CMYK no Design Gráfico</h1>
+        <p>Entenda como as cores influenciam o design e a comunicação visual.</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#rgb">RGB</a></li>
+                <li><a href="#cmyk">CMYK</a></li>
+                <li><a href="#comparacao">Comparação</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Introdução</h2>
+            <p><strong>RGB e CMYK:</strong> Modelos de cores essenciais para design digital e impressão.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/C%C3%ADrculo_Crom%C3%A1tico.png"
+                alt="Círculo Cromático" width="300">
+        </section>
+
+        <section id="rgb">
+            <h2>Modelo Aditivo (RGB)</h2>
+            <p>O modelo RGB é utilizado em dispositivos digitais como monitores, televisões e celulares. Ele se baseia na
+                combinação de luzes vermelha (R), verde (G) e azul (B) para criar cores.</p>
+            <p><strong>Funcionamento dos Pixels:</strong> Cada pixel em uma tela é composto por três subpixels
+                (vermelho, verde e azul). A intensidade de cada um deles determina a cor final exibida. Por exemplo:</p>
+            <ul>
+                <li>Se apenas o subpixel vermelho estiver aceso, o pixel parecerá vermelho.</li>
+                <li>Se o vermelho e o verde estiverem acesos, o pixel parecerá amarelo.</li>
+                <li>Se todos os três subpixels estiverem acesos na intensidade máxima, o pixel parecerá branco.</li>
+            </ul>
+            <p>Exemplo de combinação de cores no modelo RGB:</p>
+            <ul>
+                <li>Vermelho (255,0,0)</li>
+                <li>Verde (0,255,0)</li>
+                <li>Azul (0,0,255)</li>
+                <li>Branco (255,255,255) - combinação total das três cores</li>
+                <li>Preto (0,0,0) - ausência total de luz</li>
+            </ul>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/AdditiveColor.svg/512px-AdditiveColor.svg.png"
+                alt="Esquema de Cores RGB" width="300">
+        </section>
+
+        <section id="cmyk">
+            <h2>Modelo Subtrativo (CMYK)</h2>
+            <p>O modelo CMYK é utilizado na impressão, onde as cores são formadas pela mistura de pigmentos ciano (C),
+                magenta (M), amarelo (Y) e preto (K).</p>
+            <p><strong>Por que a cor preta (K) é necessária?</strong> A combinação de ciano, magenta e amarelo
+                resulta em um tom próximo ao preto, mas não é profundo o suficiente para impressão de qualidade. Por
+                isso, o preto é adicionado para criar contraste e economizar tinta.</p>
+            <p>Exemplo de combinação de cores no modelo CMYK:</p>
+            <ul>
+                <li>Ciano + Magenta = Azul</li>
+                <li>Magenta + Amarelo = Vermelho</li>
+                <li>Amarelo + Ciano = Verde</li>
+                <li>Ciano + Magenta + Amarelo = Preto</li>
+            </ul>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/SubtractiveColor.svg/512px-SubtractiveColor.svg.png"
+                alt="Esquema de Cores CMYK" width="300">
+        </section>
+
+        <section id="comparacao">
+            <h2>Comparação entre RGB e CMYK</h2>
+            <table border="1">
+                <tr>
+                    <th>RGB</th>
+                    <th>CMYK</th>
+                </tr>
+                <tr>
+                    <td>Usado em telas digitais</td>
+                    <td>Usado na impressão</td>
+                </tr>
+                <tr>
+                    <td>Modelo aditivo (adição de luz)</td>
+                    <td>Modelo subtrativo (absorção de pigmentos)</td>
+                </tr>
+                <tr>
+                    <td>Combinação de vermelho, verde e azul</td>
+                    <td>Combinação de ciano, magenta, amarelo e preto</td>
+                </tr>
+                <tr>
+                    <td>Preto é ausência de luz</td>
+                    <td>Preto é a soma dos pigmentos</td>
+                </tr>
+            </table>
+            <p>Enquanto o modelo RGB é ideal para telas, o CMYK é essencial para impressão. A conversão entre os dois
+                modelos pode causar alterações de cores, pois o espaço de cores RGB é maior do que o CMYK. Isso
+                significa que algumas cores vibrantes que aparecem na tela podem parecer mais apagadas quando
+                impressas.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/RGB_vs_CMYK_comparison.png/512px-RGB_vs_CMYK_comparison.png"
+                alt="Comparação entre RGB e CMYK" width="400">
+        </section>
+
+        <section id="olho">
+            <h2>O olho e a cor</h2>
+            <p>O olho humano é incrível! Ele capta as cores da natureza através de células especiais chamadas “cones”.
+                Essas células contêm foto-pigmentos que são "ativados” ao serem excitados por certos comprimentos de
+                ondas de luz<sup>1</sup>. Legal, né?!</p>
+            <img src="https://g6exames.com.br/portal/images/doencas/distrofia-de-cones-bastonetes-01.jpg"
+                alt="Ilustração das células cones do olho humano">
+            <p>O olho humano tem basicamente 3 tipos dessas células cones, que são:</p>
+            <ul>
+                <li>os cones R, sensíveis à luz vermelha. Isso significa que eles são ativados quando recebem ondas na
+                    faixa vermelha do
